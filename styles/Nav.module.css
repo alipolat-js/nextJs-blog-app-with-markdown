@@ -1,0 +1,42 @@
+.nav{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: .3rem;
+  position: sticky;
+  top: 0;
+}
+
+.container{
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbarBrand{
+  color: rgb(61, 232, 255);
+  font-size: 1.6rem;
+  padding-left: .3rem;
+  font-weight: bold;
+}
+
+.socialMediaGroup {
+  color: white;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  padding: .3rem;
+}
+
+.socialLink{
+  transition: all .3s linear;
+}
+
+.socialLink:hover {
+  color: rgb(61, 232, 255);
+  transition: all .3s linear;
+}

@@ -1,0 +1,18 @@
+.main{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.header{
+    margin-bottom: .5rem;
+}
+
+.content{
+    margin-bottom: .5rem;
+    text-indent: 1rem;
+}
+
+.job{
+    font-weight: bold;
+}

@@ -1,0 +1,43 @@
+.postCard{
+    border-bottom: 1px solid rgb(61, 232, 255);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: rgb(61, 232, 255);
+}
+
+.titleArea{
+    color: rgb(61, 232, 255);
+    margin-bottom: .5rem;
+    font-style: italic;
+}
+
+.contentArea {
+    margin-bottom: .5rem;
+    color: white;
+    text-indent: .3rem;
+}
+
+.author{
+margin-bottom: .5rem;
+color: rgb(201, 201, 201);
+font-weight: bold;
+}
+
+.infoArea{
+    display: flex;
+    justify-content: space-between;
+}
+
+.date{
+    font-style: italic;
+    color: rgb(61, 232, 255);
+}
+
+.imaging{
+        margin-left: .4rem;
+}
+
+.clipBoard{
+    margin-right: .6rem;
+}
