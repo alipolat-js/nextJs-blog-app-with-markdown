@@ -3,13 +3,13 @@ import Post from './Post'
 
 const PostArea = ({ posts }) => {
   return (
-    <div>
+    <>
       {posts.map((post) => (
-        <div key={post.PostID}>
+        <div key={post.slug}>
           <Post post={post} />
         </div>
       ))}
-    </div>
+    </>
   )
 }
 

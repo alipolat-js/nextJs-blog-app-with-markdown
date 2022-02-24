@@ -1,27 +1,26 @@
 .postCard{
-    border-bottom: 1px solid rgb(61, 232, 255);
     padding: 1rem;
-    margin-bottom: 1.5rem;
     font-size: 1.1rem;
-    color: rgb(61, 232, 255);
+    color: #FF2442;
 }
 
 .titleArea{
-    color: rgb(61, 232, 255);
     margin-bottom: .5rem;
     font-style: italic;
+    color: white;
 }
 
 .contentArea {
     margin-bottom: .5rem;
-    color: white;
     text-indent: .3rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFEDDA;
 }
 
 .author{
-margin-bottom: .5rem;
-color: rgb(201, 201, 201);
-font-weight: bold;
+    margin-bottom: .5rem;
+    font-weight: bold;
+    color: #FF2442;
 }
 
 .infoArea{
@@ -31,13 +30,16 @@ font-weight: bold;
 
 .date{
     font-style: italic;
-    color: rgb(61, 232, 255);
-}
-
-.imaging{
-        margin-left: .4rem;
+    color: #fff8efb4;
 }
 
 .clipBoard{
-    margin-right: .6rem;
+    cursor: pointer;
+    transition: all .3s;
+    font-size: 1.2rem;
+}
+
+.clipBoard:hover{
+    transition: all .3s;
+    color: #ffffff;
 }

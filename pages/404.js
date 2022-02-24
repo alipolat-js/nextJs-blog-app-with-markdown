@@ -7,11 +7,8 @@ const custom404 = () => {
   return (
     <div className={styles.main}>
       <p className={styles.notFound}>404</p>
-      <h1 className={styles.header}>
-        <span className={styles.emo}>:(</span> This page cloud not be found
-            </h1>
-
-      <Link href="http://localhost:3000/">
+      <h1 className={styles.header}>This page cloud not be found</h1>
+      <Link href="/">
         <a className={styles.link}>RETURN TO HOMEPAGE</a>
       </Link>
     </div>

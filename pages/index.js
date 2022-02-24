@@ -1,8 +1,9 @@
 import Head from 'next/head'
+import admin from '../src/admin'
 import About from '../components/About'
+import Footer from '../components/layout/Footer'
 import Layout from '../components/layout/Layout'
 import PostArea from '../components/PostArea'
-import admin from '../src/admin'
 
 export default function Home({ posts }) {
   return (
@@ -16,6 +17,7 @@ export default function Home({ posts }) {
       <Layout>
         <About />
         <PostArea posts={posts} />
+        <Footer />
       </Layout>
     </>
   )

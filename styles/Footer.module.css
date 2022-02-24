@@ -1,16 +1,34 @@
 .footer{
-    background-color: rgb(0, 67, 252);
-    color: rgb(255, 255, 255);
-    position: fixed;
-    bottom: 0;
-    width: 100% ;
     display: flex;
-    justify-content: center;
-    font-weight: bold;
-    cursor: pointer;
-    padding-top: .1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3rem 0 1rem 0;
 }
 
 .footerElement{
-    padding-right: 1rem;
+    padding-top: 1rem;
+    transition: all .3s;
+}
+
+.footerElement:hover{
+    transition: all .3s;
+    color: #FF2442;
+}
+
+.socialMediaGroup{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.socialLink{
+    padding: .6rem;
+    transition: all .3s;
+}
+
+.socialLink:hover{
+    padding: .6rem;
+    transition: all .3s;
+    color: #FF2442;
 }
