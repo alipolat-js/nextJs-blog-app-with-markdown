@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const URL = true ? 'https://degisecekalanadi.com' : 'http://localhost:3000';","map":null,"metadata":{},"sourceType":"module"}

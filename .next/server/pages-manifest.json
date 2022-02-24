@@ -5,6 +5,5 @@
   "/": "pages/index.js",
   "/api/posts": "pages/api/posts.js",
   "/[postSlug]": "pages/[postSlug].js",
-  "/api/post/[slug]": "pages/api/post/[slug].js",
-  "/404": "pages/404.js"
+  "/api/post/[slug]": "pages/api/post/[slug].js"
 }

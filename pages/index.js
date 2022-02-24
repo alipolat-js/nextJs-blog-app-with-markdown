@@ -1,3 +1,4 @@
+import { URL } from '../environment'
 import Head from 'next/head'
 import admin from '../src/admin'
 import About from '../components/About'
@@ -24,7 +25,7 @@ export default function Home({ posts }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch(`http://localhost:3000/api/posts`)
+  const res = await fetch(`${URL}/api/posts`)
   const posts = await res.json()
 
   return { props: { posts } }

@@ -1,1 +1,1 @@
-export const URL = process.env.NODE_ENV === "production" ? 'https://degisecekalanadi.com' : 'http://localhost:3000'
+export const URL = process.env.NODE_ENV === "production" ? 'https://nextjsblogappwithmarkdown.alipolat.tech' : 'http://localhost:3000'

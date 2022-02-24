@@ -8,7 +8,7 @@ const Nav = () => {
     <nav className={styles.nav}>
       <div className={styles.container}>
         <div>
-          <Link href="http://localhost:3000">
+          <Link href="/">
             <a className={styles.navbarBrand}>NextBlog</a>
           </Link>
         </div>

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import getPosts from '../../src/getPosts';\nexport default (async (req, res) => {\n  const allPosts = await getPosts();\n  res.status(200).json(allPosts);\n});","map":null,"metadata":{},"sourceType":"module"}
