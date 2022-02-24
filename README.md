@@ -21,6 +21,14 @@ npm install
 npm run dev
 ```
 
+_**If you get the 'ERR_OSSL_EVP_UNSUPPORTED' error on node v17 and above, run as follows:**_
+
+```
+export NODE_OPTIONS=--openssl-legacy-provider
+
+npm run dev
+```
+
 ## Build using **NextJs**
 
 ## Resources
