@@ -4,7 +4,7 @@
 **NEXTJS BLOG APPLICATION WITH MARKDOWN** It is a sample nextjs blog application prepared with markdown file type in order to style the content more easily without a database.
 
 ## Live App
-> https://nextjsblogappwithmarkdown.alipolat.tech/
+> https://nextjs-blog-app-with-md.alipolat.tech/
 
 **_or_**
 
